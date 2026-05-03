@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("This is ReelTrack);
+        System.out.println("This is ReelTrack");
         System.out.println("Movie: Top Gun: Maverick");
 
         int releaseYear = 2022;
