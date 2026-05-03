@@ -2,14 +2,15 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        System.out.println("This is ReelTrack);
+        System.out.println("Movie: Top Gun: Maverick");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        int releaseYear = 2022;
+        System.out.println("Release year: " + releaseYear);
+        boolean includedInPlan = true;
+        double movieRating = 8.1;
+        // Average calculated from the 3 ratings by Jack, Paulo, and Silvio
+        double average = (9.8 + 6.3 + 8) / 3;
+
     }
 }
